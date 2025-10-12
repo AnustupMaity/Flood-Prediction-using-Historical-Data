@@ -91,13 +91,17 @@ This repository implements a **hybrid deep learning ensemble approach** for shor
 
 ## 📈 Final Metrics & Key Inferences
 
-- **Final metric values** (placeholders – update from PDF or model logs):
-  - MAE: `<insert MAE here>`  
-  - RMSE: `<insert RMSE here>`  
-  - NSE: `<insert NSE here>`  
-  - KGE: `<insert KGE here>`  
+### Final Metrics Table
+![Final Metrics Table](https://i.ibb.co/qMwYv6wz)
 
-**Inferences:**  
+### Performance Graphs
+- **Observed vs Predicted Inflow/Discharge**
+![Observed vs Predicted](https://i.ibb.co/FqL2zwxw)
+
+- **Error Distribution / Residuals**
+![Error Distribution](https://i.ibb.co/SD2v6LpS)
+
+### Key Inferences
 - Ensemble reduces RMSE and MAE compared to single-model baselines.  
 - NSE and KGE near 1 indicate the ensemble captures variability and bias well.  
 - Improved performance for peak events highlights the ensemble’s advantage in modeling extreme inflow/discharge.  
